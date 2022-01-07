@@ -1,0 +1,1 @@
+./bin/mipcomp "$1"
