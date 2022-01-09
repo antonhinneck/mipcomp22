@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anton_hinneck/projects/github/mipcomp
+CMAKE_SOURCE_DIR = /home/anton_hinneck/projects/github/mipcomp22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anton_hinneck/projects/github/mipcomp
+CMAKE_BINARY_DIR = /home/anton_hinneck/projects/github/mipcomp22
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/mipcomp.dir/clean
 CMakeFiles/mipcomp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mipcomp.dir/build.make CMakeFiles/mipcomp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mipcomp.dir/build.make CMakeFiles/mipcomp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton_hinneck/projects/github/mipcomp/CMakeFiles --progress-num=1,2 "Built target mipcomp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anton_hinneck/projects/github/mipcomp22/CMakeFiles --progress-num=1,2 "Built target mipcomp"
 .PHONY : CMakeFiles/mipcomp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mipcomp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton_hinneck/projects/github/mipcomp/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton_hinneck/projects/github/mipcomp22/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mipcomp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton_hinneck/projects/github/mipcomp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anton_hinneck/projects/github/mipcomp22/CMakeFiles 0
 .PHONY : CMakeFiles/mipcomp.dir/rule
 
 # Convenience name for target.

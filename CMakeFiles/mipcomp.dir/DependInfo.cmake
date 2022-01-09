@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/anton_hinneck/projects/github/mipcomp/src/main.c" "CMakeFiles/mipcomp.dir/src/main.c.o" "gcc" "CMakeFiles/mipcomp.dir/src/main.c.o.d"
+  "/home/anton_hinneck/projects/github/mipcomp22/src/main.c" "CMakeFiles/mipcomp.dir/src/main.c.o" "gcc" "CMakeFiles/mipcomp.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links.

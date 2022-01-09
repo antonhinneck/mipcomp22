@@ -1,3 +1,3 @@
-/home/anton_hinneck/projects/github/mipcomp/CMakeFiles/mipcomp.dir
-/home/anton_hinneck/projects/github/mipcomp/CMakeFiles/edit_cache.dir
-/home/anton_hinneck/projects/github/mipcomp/CMakeFiles/rebuild_cache.dir
+/home/anton_hinneck/projects/github/mipcomp22/CMakeFiles/mipcomp.dir
+/home/anton_hinneck/projects/github/mipcomp22/CMakeFiles/edit_cache.dir
+/home/anton_hinneck/projects/github/mipcomp22/CMakeFiles/rebuild_cache.dir
