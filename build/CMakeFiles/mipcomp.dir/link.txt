@@ -1,0 +1,1 @@
+/usr/bin/c89-gcc -g CMakeFiles/mipcomp.dir/src/main.c.o -o ../bin/mipcomp   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lscip 

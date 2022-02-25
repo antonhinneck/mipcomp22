@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/anton_hinneck/projects/github/mipcomp22/build",
+  "command": "/usr/bin/c89-gcc  -I/home/anton_hinneck/projects/github/mipcomp22/include -I/home/anton_hinneck/projects/github/mipcomp22/src -g -Wall -Wextra -pedantic -Werror -g -o CMakeFiles/mipcomp.dir/src/main.c.o -c /home/anton_hinneck/projects/github/mipcomp22/src/main.c",
+  "file": "/home/anton_hinneck/projects/github/mipcomp22/src/main.c"
+}
+]

@@ -1,0 +1,107 @@
+    //assert(row != NULL);
+    //SCIP_ALLOC( BMSallocBlockMemory(scip->mem->probmem, &row) );
+    
+    //assert(consdata != NULL);
+    //assert(consdata->row == NULL);
+
+    // SCIP_CALL( SCIPcreateEmptyRowCons(
+    //     scip, 
+    //     &(scip->origprob->conss[0]->consdata->row), 
+    //     scip->origprob->conss[0], 
+    //     SCIPconsGetName(scip->origprob->conss[0]), 
+    //     scip->origprob->conss[0]->consdata->lhs, 
+    //     scip->origprob->conss[0]->consdata->rhs,
+    //     SCIPconsIsLocal(scip->origprob->conss[0]), 
+    //     SCIPconsIsModifiable(scip->origprob->conss[0]), 
+    //     SCIPconsIsRemovable(scip->origprob->conss[0])) 
+    // );
+
+            // SCIPgetConsVals(
+        //     scip, 
+        //     scip->origprob->conss[i], 
+        //     vals, 
+        //     varssize, 
+        //     &success
+        // );
+
+        //printf("%f", vals[0]);
+
+        //printArray(consdata->vals, consdata->nvars);
+
+        // printf("%f\n", consdata->lhs);
+        // printf("%s\n", cname);
+        // SCIP_CALL(SCIPaddRow(scip, consdata->row, FALSE, &infeasible));
+
+        // SCIP_CALL( SCIPcreateRowCons(
+        //     scip, 
+        //     &row, 
+        //     scip->origprob->conss[i], 
+        //     cname, 
+        //     clen, 
+        //     scip->lp->cols,
+        //     NULL,
+        //     scip->origprob->conss[i]->consdata->lhs, 
+        //     scip->origprob->conss[i]->consdata->rhs, 
+        //     FALSE, 
+        //     FALSE, 
+        //     TRUE)
+        // );
+        //row = SCIPconsGetRow(scip, scip->origprob->conss[i]);
+        //printf("%f  \n", row->lhs);
+
+
+    // SCIP_CALL( SCIPaddVarToRow(scip, consdata->row, consdata->var, 1.0) );
+    // SCIP_CALL( SCIPaddVarToRow(scip, consdata->row, consdata->vbdvar, consdata->vbdcoef) );
+
+    //SCIPconsGetLhs(scip, scip->origprob->conss[0], &success)
+
+        //printf("Number of rows: %d\n", scip->origprob->nconss);
+
+    //scip->lp->flushed = FALSE;
+
+
+    // SCIP_CALL(SCIPlpAddRow(
+    //     scip->lp,
+    //     scip->mem->probmem,
+    //     scip->set,
+    //     scip->eventqueue,
+    //     scip->eventfilter,
+    //     row,
+    //     0)
+    // );
+
+        
+    // assert(scip->lp != NULL);
+    // assert(scip->set != NULL);
+    // assert(scip->origprob != NULL);
+
+    // printf("Columns in LP: %d\n", scip->origprob->nbinvars);
+
+    // for(int i = 0; i < nvars; i++){
+    //     SCIPlpAddCol(scip->lp, scip->set, SCIPvarGetCol(scip->transprob->vars[i]), 0);
+    // }
+
+    // scip->set->stage = SCIP_STAGE_SOLVING;
+    // SCIPlpFlush(scip->lp, scip->mem->probmem, scip->set, scip->eventqueue);
+
+
+    // nvars = scip->origprob->nvars;
+    // printf("%d  \n", nvars);
+    // SCIP_COL* sc = SCIPvarGetCol(scip->origprob->vars[0]);
+    // assert(sc == NULL);
+
+        //SCIP_Real* vals = malloc(1024 * sizeof(SCIP_Real));
+    //int varssize = 0;
+    //SCIP_Bool success = 0;
+
+    // SCIP_Bool success;
+    // int ccols;
+    // int cvals;
+    // int crhs;
+    // int clhs;
+    // SCIP_ROW* row;
+    // SCIP_COL** cols;
+    // int nvars;
+    // int nrows = 0;
+
+    //printf("Obj: %f", col->obj);
