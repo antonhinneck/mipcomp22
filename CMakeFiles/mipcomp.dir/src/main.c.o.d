@@ -23,7 +23,7 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/local/include/scip/scip_solve.h /usr/local/include/scip/def.h \
+ /usr/local/include/scip/struct_sol.h /usr/local/include/scip/def.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
@@ -50,17 +50,16 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/local/include/scip/pub_message.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/local/include/scip/type_scip.h \
- /usr/local/include/scip/type_sol.h /usr/local/include/scip/type_tree.h \
- /usr/local/include/scip/type_var.h /usr/local/include/scip/scip_sol.h \
- /usr/local/include/scip/type_cons.h /usr/local/include/scip/type_lp.h \
+ /usr/include/strings.h /usr/local/include/scip/type_misc.h \
+ /usr/local/include/scip/type_sol.h /usr/local/include/scip/type_heur.h \
+ /usr/local/include/scip/type_scip.h \
  /usr/local/include/scip/type_result.h \
- /usr/local/include/scip/type_timing.h \
- /usr/local/include/scip/type_heur.h /usr/local/include/scip/scip_lp.h \
- /usr/local/include/lpi/type_lpi.h /usr/local/include/scip/type_misc.h \
- /usr/local/include/scip/type_sepa.h /usr/local/include/scip/pricestore.h \
- /usr/local/include/blockmemshell/memory.h /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/local/include/scip/type_timing.h /usr/local/include/scip/type_var.h \
+ /usr/local/include/scip/type_relax.h /usr/local/include/scip/struct_lp.h \
+ /usr/local/include/scip/type_lp.h /usr/local/include/scip/type_event.h \
+ /usr/include/inttypes.h /usr/local/include/lpi/type_lpi.h \
+ /usr/local/include/scip/lp.h /usr/local/include/blockmemshell/memory.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
@@ -84,59 +83,37 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/local/include/scip/type_set.h /usr/local/include/scip/type_stat.h \
- /usr/local/include/scip/type_event.h /usr/include/inttypes.h \
  /usr/local/include/scip/type_prob.h \
- /usr/local/include/scip/type_pricestore.h \
- /usr/local/include/scip/type_branch.h \
- /usr/local/include/scip/sepastore.h \
+ /usr/local/include/scip/type_branch.h /usr/local/include/scip/pub_lp.h \
+ /usr/local/include/scip/type_cons.h /usr/local/include/scip/type_sepa.h \
+ /usr/local/include/scip/scip_reader.h \
+ /usr/local/include/scip/type_reader.h /usr/local/include/scip/prob.h \
  /usr/local/include/scip/type_implics.h \
- /usr/local/include/scip/type_reopt.h \
- /usr/local/include/scip/type_sepastore.h \
- /usr/local/include/scip/cutpool.h /usr/local/include/scip/type_cutpool.h \
- /usr/local/include/scip/pub_cutpool.h /usr/local/include/scip/reopt.h \
- /usr/local/include/scip/pub_reopt.h \
  /usr/local/include/scip/type_primal.h \
- /usr/local/include/scip/struct_reopt.h \
- /usr/local/include/scip/type_clock.h \
- /usr/local/include/scip/type_history.h \
- /usr/local/include/scip/struct_var.h /usr/local/include/scip/type_prop.h \
- /usr/local/include/scip/struct_history.h \
- /usr/local/include/scip/cons_linear.h \
- /usr/local/include/scip/struct_cons.h \
- /usr/local/include/scip/struct_lp.h \
- /usr/local/include/scip/struct_scip.h \
- /usr/local/include/scip/type_dcmp.h \
- /usr/local/include/scip/type_interrupt.h \
- /usr/local/include/scip/type_mem.h /usr/local/include/scip/type_nlp.h \
- /usr/local/include/scip/type_relax.h \
+ /usr/local/include/scip/type_tree.h /usr/local/include/scip/type_reopt.h \
  /usr/local/include/scip/type_conflictstore.h \
+ /usr/local/include/scip/struct_prob.h \
+ /usr/local/include/scip/struct_var.h \
+ /usr/local/include/scip/type_history.h \
+ /usr/local/include/scip/type_prop.h \
+ /usr/local/include/scip/struct_cons.h \
+ /usr/local/include/scip/type_clock.h \
+ /usr/local/include/scip/cons_linear.h /usr/local/include/scip/scip.h \
+ /usr/local/include/scip/type_paramset.h \
+ /usr/local/include/scip/type_nlp.h /usr/local/include/scip/type_bandit.h \
  /usr/local/include/scip/type_conflict.h \
  /usr/local/include/scip/type_dialog.h \
- /usr/local/include/scip/type_concurrent.h \
- /usr/local/include/scip/type_syncstore.h \
- /usr/local/include/scip/struct_set.h /usr/local/include/scip/message.h \
- /usr/local/include/scip/type_bandit.h \
- /usr/local/include/scip/type_paramset.h \
- /usr/local/include/scip/type_disp.h /usr/local/include/scip/type_compr.h \
+ /usr/local/include/scip/type_disp.h /usr/local/include/scip/type_expr.h \
+ /usr/local/include/scip/intervalarith.h \
+ /usr/local/include/scip/type_compr.h \
  /usr/local/include/scip/type_nodesel.h \
  /usr/local/include/scip/type_presol.h \
  /usr/local/include/scip/type_pricer.h \
- /usr/local/include/scip/type_reader.h \
  /usr/local/include/scip/type_cutsel.h \
  /usr/local/include/scip/type_table.h /usr/local/include/scip/type_nlpi.h \
- /usr/local/include/scip/type_expr.h \
- /usr/local/include/scip/intervalarith.h \
  /usr/local/include/scip/type_concsolver.h \
- /usr/local/include/scip/type_benders.h /usr/local/include/scip/debug.h \
- /usr/local/include/scip/sepa.h /usr/local/include/scip/pub_sepa.h \
- /usr/local/include/scip/struct_sol.h \
- /usr/local/include/scip/struct_mem.h \
- /usr/local/include/scip/struct_prob.h \
- /usr/local/include/scip/struct_stat.h \
- /usr/local/include/scip/type_visual.h \
- /usr/local/include/scip/struct_misc.h \
- /usr/local/include/scip/struct_tree.h \
- /usr/local/include/scip/cons_cumulative.h /usr/local/include/scip/scip.h \
+ /usr/local/include/scip/type_syncstore.h \
+ /usr/local/include/scip/type_benders.h \
  /usr/local/include/scip/type_benderscut.h \
  /usr/local/include/scip/pub_bandit.h \
  /usr/local/include/scip/pub_bandit_epsgreedy.h \
@@ -146,15 +123,16 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/local/include/scip/pub_benderscut.h \
  /usr/local/include/scip/pub_branch.h \
  /usr/local/include/scip/pub_conflict.h \
- /usr/local/include/scip/pub_cons.h /usr/local/include/scip/pub_dcmp.h \
+ /usr/local/include/scip/pub_cons.h /usr/local/include/scip/pub_cutpool.h \
+ /usr/local/include/scip/type_cutpool.h \
+ /usr/local/include/scip/pub_dcmp.h /usr/local/include/scip/type_dcmp.h \
  /usr/local/include/scip/pub_dialog.h /usr/local/include/scip/pub_disp.h \
- /usr/local/include/scip/pub_event.h \
- /usr/local/include/scip/type_timing.h /usr/local/include/scip/pub_expr.h \
+ /usr/local/include/scip/pub_event.h /usr/local/include/scip/pub_expr.h \
  /usr/local/include/scip/pub_fileio.h /usr/local/include/scip/pub_heur.h \
  /usr/local/include/scip/pub_compr.h \
  /usr/local/include/scip/pub_history.h \
- /usr/local/include/scip/pub_implics.h /usr/local/include/scip/pub_lp.h \
- /usr/local/include/scip/pub_nlp.h /usr/local/include/scip/pub_matrix.h \
+ /usr/local/include/scip/pub_implics.h /usr/local/include/scip/pub_nlp.h \
+ /usr/local/include/scip/pub_matrix.h \
  /usr/local/include/scip/type_matrix.h /usr/local/include/scip/pub_misc.h \
  /usr/local/include/scip/pub_misc_select.h \
  /usr/local/include/scip/type_misc.h \
@@ -166,6 +144,7 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/local/include/scip/pub_presol.h \
  /usr/local/include/scip/pub_pricer.h \
  /usr/local/include/scip/pub_reader.h /usr/local/include/scip/pub_relax.h \
+ /usr/local/include/scip/pub_reopt.h /usr/local/include/scip/pub_sepa.h \
  /usr/local/include/scip/pub_cutsel.h /usr/local/include/scip/pub_prop.h \
  /usr/local/include/scip/pub_sol.h /usr/local/include/scip/pub_table.h \
  /usr/local/include/scip/pub_tree.h /usr/local/include/scip/pub_var.h \
@@ -187,7 +166,8 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/local/include/scip/scip_disp.h /usr/local/include/scip/scip_event.h \
  /usr/local/include/scip/scip_expr.h \
  /usr/local/include/scip/scip_general.h \
- /usr/local/include/scip/scip_heur.h /usr/local/include/scip/scip_mem.h \
+ /usr/local/include/scip/scip_heur.h /usr/local/include/scip/scip_lp.h \
+ /usr/local/include/scip/scip_mem.h \
  /usr/local/include/scip/scip_message.h \
  /usr/local/include/scip/scip_nlp.h /usr/local/include/scip/scip_nlpi.h \
  /usr/local/include/scip/pub_nlpi.h \
@@ -200,17 +180,23 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/local/include/scip/scip_probing.h \
  /usr/local/include/scip/scip_prop.h \
  /usr/local/include/scip/scip_randnumgen.h \
- /usr/local/include/scip/scip_reader.h \
  /usr/local/include/scip/scip_relax.h \
  /usr/local/include/scip/scip_reopt.h /usr/local/include/scip/scip_sepa.h \
- /usr/local/include/scip/scip_cutsel.h \
+ /usr/local/include/scip/scip_cutsel.h /usr/local/include/scip/scip_sol.h \
+ /usr/local/include/scip/scip_solve.h \
  /usr/local/include/scip/scip_solvingstats.h \
  /usr/local/include/scip/scip_table.h \
  /usr/local/include/scip/scip_timing.h \
  /usr/local/include/scip/scip_tree.h \
  /usr/local/include/scip/scip_validation.h \
- /usr/local/include/scip/scip_var.h /usr/local/include/scip/prob.h \
- /usr/local/include/scip/lp.h /usr/local/include/scip/scipdefplugins.h \
+ /usr/local/include/scip/scip_var.h /usr/local/include/scip/struct_scip.h \
+ /usr/local/include/scip/type_interrupt.h \
+ /usr/local/include/scip/type_mem.h \
+ /usr/local/include/scip/type_pricestore.h \
+ /usr/local/include/scip/type_sepastore.h \
+ /usr/local/include/scip/type_concurrent.h /usr/local/include/scip/set.h \
+ /usr/local/include/scip/struct_set.h /usr/local/include/scip/message.h \
+ /usr/local/include/scip/debug.h /usr/local/include/scip/scipdefplugins.h \
  /usr/local/include/scip/branch_allfullstrong.h \
  /usr/local/include/scip/branch_cloud.h \
  /usr/local/include/scip/branch_distribution.h \
@@ -234,6 +220,7 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/local/include/scip/cons_cardinality.h \
  /usr/local/include/scip/cons_conjunction.h \
  /usr/local/include/scip/cons_countsols.h \
+ /usr/local/include/scip/cons_cumulative.h \
  /usr/local/include/scip/cons_disjunction.h \
  /usr/local/include/scip/cons_indicator.h \
  /usr/local/include/scip/cons_integral.h \
@@ -416,14 +403,4 @@ CMakeFiles/mipcomp.dir/src/main.c.o: \
  /usr/local/include/scip/nlpi_ipopt.h \
  /usr/local/include/scip/nlpi_filtersqp.h \
  /usr/local/include/scip/nlpi_worhp.h /usr/local/include/scip/nlpi_all.h \
- /usr/local/include/scip/misc.h /usr/local/include/scip/set.h \
- /usr/local/include/scip/solve.h /usr/local/include/scip/var.h \
- /usr/local/include/scip/tree.h /usr/local/include/scip/nodesel.h \
- /usr/local/include/scip/cons.h /usr/local/include/scip/event.h \
- /usr/local/include/scip/branch.h /usr/local/include/scip/implics.h \
- /usr/local/include/scip/primal.h /usr/local/include/scip/struct_primal.h \
- /usr/local/include/scip/conflict.h /usr/local/include/scip/relax.h \
- /usr/local/include/scip/stat.h /usr/local/include/scip/concurrent.h \
- /usr/local/include/scip/nlp.h /usr/local/include/scip/visual.h \
- /usr/local/include/scip/dcmp.h /usr/local/include/scip/conflictstore.h \
  /home/anton_hinneck/projects/github/mipcomp22/src/_structs.c
